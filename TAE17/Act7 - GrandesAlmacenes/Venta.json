@@ -1,0 +1,16 @@
+[{
+  "_id": 1,
+  "Cajero": 1,
+  "Maquina": 3,
+  "Producto": 2
+},{
+  "_id": 2,
+  "Cajero": 3,
+  "Maquina": 1,
+  "Producto": 1
+},{
+  "_id": 3,
+  "Cajero": 2,
+  "Maquina": 2,
+  "Producto": 3
+}]

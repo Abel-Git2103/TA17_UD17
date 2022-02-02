@@ -1,0 +1,95 @@
+use GrandesAlmacenes
+
+db.createCollection('Cajeros')
+
+db.createCollection('Productos')
+
+db.createCollection('Venta')
+
+db.createCollection('Maquinas_Registradoras')
+
+db.Cajeros.insertMany(
+  [
+    {
+    _id: 1,
+    Codigo: 1,
+    NomApels: 'Edgar Falco',    
+    },
+    {
+    _id: 2,
+    Codigo: 2,
+    NomApels: 'Abel Jornet',
+    },
+    {
+    _id: 3,
+    Codigo: 3,
+    NomApels: 'Raul Garrido',
+    }
+  ]
+)
+
+db.Productos.insertMany(
+  [
+    {
+    _id: 1,
+    Codigo: 1,
+    Nombre: 'Leche',
+    Precio: 5,
+    },
+    {
+    _id:2,
+    Codigo: 2,
+    Nombre: 'Naranja',
+    Precio: 2,
+    },
+    {
+    _id:3,
+    Codigo: 3,
+    Nombre: 'Manzana',
+    Precio: 1,
+    }
+  ]
+)
+
+db.Venta.insertMany(
+  [
+    {
+    _id: 1,
+    Cajero: 1,
+    Maquina: 3,
+    Producto: 2,
+    },
+    {
+    _id:2,
+    Cajero: 3,
+    Maquina: 1,
+    Producto: 1,
+    },
+    {
+    _id:3,
+    Cajero: 2,
+    Maquina: 2,
+    Producto: 3,
+    }
+  ]
+)
+
+db.Maquinas_Registradoras.insertMany(
+  [
+    {
+    _id: 1,
+    Codigo: 1,
+    Piso: 6,   
+    },
+    {
+    _id:2,
+    Codigo: 2,
+    Piso: 5,
+    },
+    {
+    _id:3,
+    Codigo: 3,
+    Piso: 2,
+    }
+  ]
+)
