@@ -1,0 +1,67 @@
+use Cientificos
+
+db.createCollection('Cientificos')
+
+db.createCollection('Asignado_A')
+
+db.createCollection('Proyecto')
+
+db.Cientificos.insertMany(
+  [
+    {
+    _id: 1,
+    DNI: '39915578D',
+    NomApels: 'Robert Nautilus'    
+    },
+    {
+    _id: 2,
+    DNI: '39915671W',
+    NomApels: 'Jordi Lopez'
+    },
+    {
+    _id: 3,
+    DNI: '39895671G',
+    NomApels: 'Alejandro Marin'
+    }
+  ]
+)
+
+db.Asignado_A.insertMany(
+  [
+    {
+    _id: 1,
+    Cientifico: '39915671W',
+    Proyecto: 3
+    },
+    {
+    _id:2,
+    Cientifico: '39915578D',
+    Proyecto: 2
+    },
+    {
+    _id:3,
+    Cientifico: '39895671G',
+    Proyecto: 1
+    }
+  ]
+)
+
+db.Proyecto.insertMany(
+  [
+    {
+    _id: 1,
+    Nombre: 'NFK',
+    Horas: 4
+    },
+    {
+    _id:2,
+    Nombre: 'Yellow',
+    Horas: 5
+    },
+    {
+    _id:3,
+    Nombre: 'Neces',
+    Horas: 7
+    }
+  ]
+)
