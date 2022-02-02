@@ -1,0 +1,50 @@
+db.createCollection('Piezas')
+
+db.Piezas.insertMany([{
+  _id: 1,
+  Codigo: 1,
+  Nombre: 'Tornillo'
+}, {
+  _id: 2,
+  Codigo: 2,
+  Nombre: 'Pomo'
+}, {
+  _id: 3,
+  Codigo: 3,
+  Nombre: 'Visagra'
+}])
+
+db.createCollection('Suministra')
+
+db.Suministra.insertMany([{
+  _id: 1,
+  CodigoPieza: 1,
+  IdProveedor: 1,
+  Precio: 20
+}, {
+  _id: 2,
+  CodigoPieza: 2,
+  IdProveedor: 2,
+  Precio: 40
+}, {
+  _id: 3,
+  Codigo: 3,
+  IdProveedor: 3,
+  Precio: 15
+}])
+
+db.createCollection('Proveedores')
+
+db.Proveedores.insertMany([{
+  _id: 1,
+  Id: 1,
+  Nombre: 'Tornillos para ti'
+}, {
+  _id: 2,
+  Id: 2,
+  Nombre: 'Pomos para ti'
+}, {
+  _id: 3,
+  Id: 3,
+  Nombre: 'Visagras para ti'
+}])
