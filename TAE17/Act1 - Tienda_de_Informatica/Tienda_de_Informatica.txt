@@ -1,0 +1,55 @@
+use Tienda_de_Informatica
+
+db.Fabricantes.insertOne(
+  {
+    _id: 1,
+	"Codigo": 1,
+    "Nombre": 'DELL'
+  }
+)
+
+db.Fabricantes.insertOne(
+  {
+    _id: 2,
+	"Codigo": 2,
+    "Nombre": 'HP'
+  }
+)
+
+db.Fabricantes.insertOne(
+  {
+    _id: 3,
+	"Codigo": 3,
+    "Nombre": 'TOSHIBA'
+  }
+)
+
+db.Articulos.insertOne(
+  {
+    _id: 1,
+	"Codigo": 1,
+    "Nombre": 'PC PORTATIL',
+    "Precio": 300,
+    "Fabricante": 'DELL'
+  }
+)
+
+db.Articulos.insertOne(
+  {
+    _id: 2,
+	"Codigo": 2,
+    "Nombre": 'PC SOBREMESA',
+    "Precio": 500,
+    "Fabricante": 'HP'
+  }
+)
+
+db.Articulos.insertOne(
+  {
+    _id: 3,
+	"Codigo": 3,
+    "Nombre": 'TABLET',
+    "Precio": 130,
+    "Fabricante": 'TOSHIBA'
+  }
+)

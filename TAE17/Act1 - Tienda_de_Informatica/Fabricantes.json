@@ -1,0 +1,13 @@
+[{
+  "_id": 1,
+  "Codigo": 1,
+  "Nombre": "DELL"
+},{
+  "_id": 2,
+  "Codigo": 2,
+  "Nombre": "HP"
+},{
+  "_id": 3,
+  "Codigo": 3,
+  "Nombre": "TOSHIBA"
+}]
