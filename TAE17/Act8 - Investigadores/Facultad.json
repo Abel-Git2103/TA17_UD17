@@ -1,0 +1,13 @@
+[{
+  "_id": 1,
+  "Codigo": 1,
+  "Nombre": "Facultad de Medicina"
+},{
+  "_id": 2,
+  "Codigo": 2,
+  "Nombre": "Facultad de Informatica"
+},{
+  "_id": 3,
+  "Codigo": 3,
+  "Nombre": "Facultad de Ciencias"
+}]

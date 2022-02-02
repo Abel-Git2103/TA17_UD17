@@ -1,0 +1,87 @@
+db.createCollection('Facultad')
+
+db.Facultad.insertMany([{
+_id: 1,
+Codigo: 1,
+Nombre: 'Facultad de Medicina'
+},
+{
+_id: 2,
+Codigo: 2,
+Nombre: 'Facultad de Informatica'
+},
+{
+_id: 3,
+Codigo: 3,
+Nombre: 'Facultad de Ciencias'
+}
+])
+
+db.createCollection('Investigadores')
+
+db.Investigadores.insertMany([{
+_id: 1,
+DNI: '41024353D',
+NomApels: 'Raul Garrido Rasillo',
+Facultad: 3
+},
+{
+_id: 2,
+DNI: '41054435D',
+NomApels: 'Abel Jornet Martinez',
+Facultad: 1
+},
+{
+_id: 3,
+DNI: '41527953D',
+NomApels: 'Edgar Falco Fernandez',
+Facultad: 2
+}
+])
+
+db.createCollection('Reserva')
+
+db.Reserva.insertMany([{
+_id: 1,
+DNI: '41024353D',
+NumSerie: 1,
+Comienzo: 'FechaComienzo',
+Fin: 'FechaFin'
+},
+{
+_id: 2,
+DNI: '41054435D',
+NumSerie: 2,
+Comienzo: 'FechaComienzo',
+Fin: 'FechaFin'
+},
+{
+_id: 3,
+DNI: '41527953D',
+NumSerie: 3,
+Comienzo: 'FechaComienzo',
+Fin: 'FechaFin'
+}
+])
+
+db.createCollection('Equipos')
+
+db.Equipos.insertMany([{
+_id: 1,
+NumSerie: 1,
+Nombre: 'Equipo1',
+Facultad: 1
+},
+{
+_id: 2,
+NumSerie: 3,
+Nombre: 'Equipo2',
+Facultad: 2
+},
+{
+_id: 3,
+NumSerie: 3,
+Nombre: 'Equipo3',
+Facultad: 3
+}
+])

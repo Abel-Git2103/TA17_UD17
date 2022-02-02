@@ -1,0 +1,16 @@
+[{
+  "_id": 1,
+  "DNI": "41024353D",
+  "NomApels": "Raul Garrido Rasillo",
+  "Facultad": 3
+},{
+  "_id": 2,
+  "DNI": "41054435D",
+  "NomApels": "Abel Jornet Martinez",
+  "Facultad": 1
+},{
+  "_id": 3,
+  "DNI": "41527953D",
+  "NomApels": "Edgar Falco Fernandez",
+  "Facultad": 2
+}]

@@ -1,0 +1,19 @@
+[{
+  "_id": 1,
+  "DNI": "41024353D",
+  "NumSerie": 1,
+  "Comienzo": "FechaComienzo",
+  "Fin": "FechaFin"
+},{
+  "_id": 2,
+  "DNI": "41054435D",
+  "NumSerie": 2,
+  "Comienzo": "FechaComienzo",
+  "Fin": "FechaFin"
+},{
+  "_id": 3,
+  "DNI": "41527953D",
+  "NumSerie": 3,
+  "Comienzo": "FechaComienzo",
+  "Fin": "FechaFin"
+}]
