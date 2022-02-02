@@ -1,0 +1,19 @@
+[{
+  "_id": 1,
+  "DNI": "1234567A",
+  "NomApels": "Abel Jornet Molero",
+  "DNIJefe": "1234567A",
+  "Despacho": 1
+},{
+  "_id": 2,
+  "DNI": "1234567A",
+  "NomApels": "Abel Jornet Molero",
+  "DNIJefe": "1234567A",
+  "Despacho": 1
+},{
+  "_id": 3,
+  "DNI": "1234567A",
+  "NomApels": "Abel Jornet Molero",
+  "DNIJefe": "1234567A",
+  "Despacho": 1
+}]

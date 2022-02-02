@@ -1,0 +1,43 @@
+use Directores
+
+db.Directores.insertMany([
+  {
+    _id: 1,
+    "DNI": '1234567A',
+    "NomApels": 'Abel Jornet Molero',
+    "DNIJefe": '1234567A',
+	"Despacho": 1
+  },
+  {
+    _id: 2,
+    "DNI": '1234567A',
+    "NomApels": 'Abel Jornet Molero',
+    "DNIJefe": '1234567A',
+	"Despacho": 1
+  },
+  {
+    _id: 3,
+    "DNI": '1234567A',
+    "NomApels": 'Abel Jornet Molero',
+    "DNIJefe": '1234567A',
+	"Despacho": 1
+  }
+])
+
+db.Despachos.insertMany([
+  {
+    _id: 1,
+    "Numero": 1,
+    "Capacidad": 5,
+  },
+  {
+    _id: 2,
+    "Numero": 2,
+    "Capacidad": 10,
+  },
+  {
+    _id: 3,
+    "Numero": 3,
+    "Capacidad": 15,
+  }
+])

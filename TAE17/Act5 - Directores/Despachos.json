@@ -1,0 +1,13 @@
+[{
+  "_id": 1,
+  "Numero": 1,
+  "Capacidad": 5
+},{
+  "_id": 2,
+  "Numero": 2,
+  "Capacidad": 10
+},{
+  "_id": 3,
+  "Numero": 3,
+  "Capacidad": 15
+}]
