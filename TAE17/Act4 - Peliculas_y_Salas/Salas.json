@@ -1,0 +1,16 @@
+[{
+  "_id": 1,
+  "Codigo": 1,
+  "Nombre": "SALA 1",
+  "Pelicula": 1
+},{
+  "_id": 2,
+  "Codigo": 2,
+  "Nombre": "SALA 2",
+  "Pelicula": 2
+},{
+  "_id": 3,
+  "Codigo": 3,
+  "Nombre": "SALA 3",
+  "Pelicula": 3
+}]
