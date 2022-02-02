@@ -1,0 +1,16 @@
+[{
+  "_id": 1,
+  "Codigo": 1,
+  "Lugar": "Tarragona",
+  "Capacidad": 5
+},{
+  "_id": 2,
+  "Codigo": 2,
+  "Lugar": "Barcelona",
+  "Capacidad": 9
+},{
+  "_id": 3,
+  "Codigo": 3,
+  "Lugar": "Reus",
+  "Capacidad": 10
+}]

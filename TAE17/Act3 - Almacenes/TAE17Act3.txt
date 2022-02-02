@@ -1,0 +1,53 @@
+use Almacenes
+
+db.createCollection('Almacenes')
+
+db.createCollection('Cajas')
+
+db.Almacenes.insertMany(
+  [
+    {
+    _id: 1,
+    Codigo: 1,
+    Lugar: 'Tarragona',
+    Capacidad: 5
+    },
+    {
+    _id: 2,
+    Codigo: 2,
+    Lugar: 'Barcelona',
+    Capacidad: 9
+    },
+    {
+    _id: 3,
+    Codigo: 3,
+    Lugar: 'Reus',
+    Capacidad: 10
+    }
+  ]
+)
+
+db.Cajas.insertMany(
+  [
+    {
+    _id: 1,
+    Contenido: 1,
+    Valor: 'Flores',
+    Almacen: 2
+    },
+    {
+    _id:2,
+    NumReferencia: 2,
+    Contenido:'Papeles',
+    Valor: 50,
+    Almacen: 1
+    },
+    {
+    _id:3,
+    NumReferencia: 3,
+    Contenido:'Vasso',
+    Valor: 100,
+    Almacen: 3
+    }
+  ]
+)
